@@ -98,7 +98,7 @@ input.grid_12, textarea.grid_12, .uneditable-input.grid_12 { width: 960px; }
 }
 .clearfix:after, .container:after { clear: both; }
 .clearfix, .container { zoom: 1; }
-/*
+
 @media screen and (min-width: 768px) and (max-width: 979px) { 
 .container { margin-left: auto; margin-right: auto; width: 720px; }
 [class*="grid"] { display: inline; float:left; margin-left: 5px; margin-right: 5px; }
@@ -189,4 +189,3 @@ input.grid_12, textarea.grid_12, .uneditable-input.grid_12 { width: 720px; }
 .container [class*="pull"] { left:0; }
 
 }
-*/
