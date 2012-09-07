@@ -180,9 +180,9 @@ input.grid_12, textarea.grid_12, .uneditable-input.grid_12 { width: 720px; }
 
 .container { margin-left: auto; margin-right: auto; width: 90%; }
 
-[class*="grid"] { display: inline; float:left; margin-left: 2.083333333333%; margin-right: 2.083333333333%; }
+[class*="grid"] { display: inline; float:left; margin-left: 1.5625%; margin-right: 1.5625%; }
 
-.container [class*="grid"] { width:97.916666666667%; }
+.container [class*="grid"] { width:96.875%; }
 .container [class*="prefix"] { padding-left:0; }
 .container [class*="suffix"] { padding-right:0; }
 .container [class*="push"] { left:0; }
