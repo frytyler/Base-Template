@@ -9,7 +9,7 @@
 input[class*="grid"], select[class*="grid"], textarea[class*="grid"] { float: none; margin-left: 0; margin-right:0; }
 
 /* Grid >> Children (Alpha ~ First, Omega ~ Last) */
-.alpha { margin-left: 0; }
+.alpha { margin-left: 10px; }
 .omega { margin-right: 0; }
 
 /* Grid >> 12 Columns */
