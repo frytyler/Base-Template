@@ -1,3 +1,26 @@
+/* INNER GRID ~ Written by Tyler Fry */
+.inner_container:before, .inner_container:after { content: '.'; display: block; overflow: hidden; visibility: hidden; font-size: 0; line-height: 0; width: 0; height: 0; }
+.inner_container:after { clear: both; }
+.inner_container { zoom: 1; width: 102%; margin-left: -1%; }
+
+[class*="col_"] { display: inline; float: left; margin-right: 1%; margin-left: 1%; }
+.col_1of4 { width: 23%; }
+.col_2of4 { width: 48%; }
+.col_3of4 { width: 73%; }
+.col_1of2 { width: 48%; }
+.col_1of3 { width: 31.33333333333333%; }
+.col_2of3 { width: 64.6666666666666%; }
+.col_1of1 { width: 98%; }
+.col_1of5 { width: 18%; }
+.col_2of5 { width: 38%; }
+.col_3of5 { width: 58%; }
+.col_4of5 { width: 78%; }
+
+@media (max-width: 600px) {
+	[class*="col_"] { width: 98%; }
+}
+
+
 /* 960 Grid System ~ Core CSS. Learn more ~ http://960.gs/ Licensed under GPL and MIT. */
 /* MODIFIED by  */
 /* Container */
