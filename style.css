@@ -75,7 +75,7 @@ textarea{overflow:auto;vertical-align:top;}
 label,input,button,select,textarea{font-size:13px;font-weight:normal;line-height:18px;}
 input,button,select,textarea{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;}
 label{display:block;margin-bottom:5px;color:#333333;}
-input,textarea,select,.uneditable-input{display:inline-block;width:100%;height:28px;padding:4px;margin-bottom:9px;font-size:13px;line-height:18px;color:#555555;border:1px solid #cccccc;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px; .box-sizing; }
+input,textarea,select,.uneditable-input{display:inline-block;width:100%;height:28px;padding:4px;margin-bottom:9px;font-size:13px;line-height:18px;color:#555555;border:1px solid #cccccc;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px; }
 .ie7 input,.ie7 textarea,.ie7 select,.ie7 .uneditable-input{height:18px;width:96.677777777%;}
 .uneditable-textarea{width:auto;height:auto;}
 label input,label textarea,label select{display:block;}
